@@ -1,18 +1,332 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 
 <html>
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+	<title>Orcun Ziylan - AI Research Engineer</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description"
+		content="Portfolio of Orcun Ziylan, an AI Research Engineer specializing in machine learning, NLP, and computer vision.">
+	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
-<body>
+<body class="homepage is-preload">
+	<div id="page-wrapper">
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
+		<!-- Header -->
+		<section id="header" class="wrapper">
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
+			<!-- Logo -->
+			<div id="logo">
+				<h1>Orcun Ziylan</a></h1>
+				<p>AI Research Engineer<br>
+					Experienced in machine learning, NLP, and computer vision<br>
+					Passionate about advancing AI technologies through innovative research</p>
+			</div>
+			<nav id="nav">
+				<ul>
+					<!-- <li><a data-scroll="#header" href="#">Home</a></li> -->
+					<li><a data-scroll="#intro" href="#">Introduction</a></li>
+					<li><a data-scroll="#main" href="#">Master's Thesis</a></li>
+					<li><a data-scroll="#highlights" href="#">Featured Works</a></li>
+					<li><a data-scroll="#footer" href="#">Contact Information</a></li>
+				</ul>
+			</nav>
+		</section>
+
+		<!-- Intro -->
+		<section id="intro" class="wrapper style1">
+			<div class="title">Introduction</div>
+			<div class="container">
+				<!-- <p class="style1">So, let's start with the question:</p> -->
+				<p class="style2">Who am I?...</p>
+
+				<p class="style3">
+
+					<!-- <p>
+						Hi, I'm Orcun. My journey into AI began with a Bachelor's degree in Mechatronics Engineering, sparking a passion that led me to pursue a Master's in Artificial Intelligence and Robotics at Sapienza University of Rome.  I've always been driven by the challenge of solving complex problems, and AI provides the perfect tools.  My goal is to contribute meaningfully to the field, whether through research or by joining a dynamic team.
+					</p>
+					<p>
+						During my master's, I explored machine learning, computer vision, natural language processing, and reinforcement learning. My thesis focused on optimizing 3D point cloud understanding using the CrossPoint self-supervised learning architecture – a leading architecture in the field. This work received top marks and demonstrated significant potential.  Since then, I've continued to build my skills through personal projects, research, and relevant certifications, focusing on implementing large language models, automating workflows, and deploying AI solutions in the cloud.
+					</p> -->
+
+					<p>
+						Hi, my name is Orcun. I began my academic journey with a bachelor’s degree in <strong>Mechatronics
+						Engineering</strong>, where I first discovered my passion for artificial intelligence. This
+						interest inspired me to pivot towards AI and pursue a master’s degree in <strong>Artificial
+						Intelligence and Robotics</strong> at Sapienza University of Rome.
+					</p>
+
+					<p>
+						During my master’s studies, I worked on various areas within AI, including <strong>machine
+						learning</strong>, <strong>computer vision</strong>, <strong>natural language
+						processing</strong>, and <strong>reinforcement learning</strong>. My thesis focused on
+						<strong>optimizing 3D point cloud understanding</strong> using a leading <strong>self-supervised
+						learning</strong> architecture. This work earned <strong>top marks</strong> and was highly
+						regarded by my academic committee, reflecting its potential for further exploration or publication.
+					</p>
+
+					<p>
+						While my experience has mainly been through academic and personal projects, I’ve built a strong
+						foundation by solving real-world problems, reading research papers, and keeping up with the latest
+						developments in AI. My projects have included implementing <strong>large language models
+						(LLMs)</strong>, <strong>automating workflows</strong>, deploying AI solutions in the cloud, and
+						earning certifications to expand my technical expertise.
+					</p>
+
+					<p>
+						My journey hasn’t been linear, but every challenge has strengthened my commitment to contribute to
+						the future of AI. I’m now looking to dive deeper into AI research, whether through a PhD or by
+						joining a research-driven team.
+					</p>
+
+				</p>
+				<ul class="actions">
+					<li><a href="https://drive.google.com/file/d/1TIkg8e0bHfgU4AkjwajrSocAwL9L08FM/view?usp=sharing"
+							class="button style3 large" target="_blank">View CV</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Main -->
+		<section id="main" class="wrapper style2">
+			<div class="title">Master's Thesis</div>
+			<div class="container">
+
+				<!-- Image -->
+				<a href="#" class="image featured">
+					<img src="images/design.jpeg" alt="" />
+				</a>
+
+				<!-- Features -->
+				<section id="features">
+					<header class="style1">
+						<h2>Master's Thesis: Sapienza University of Rome</h2>
+						<p>Self-Supervised Learning for 3D Point Cloud Understanding</p>
+					</header>
+					<div class="feature-list">
+						<div class="row">
+							<p>
+								In my master's thesis, I focused on advancing the performance of
+								<strong>state-of-the-art</strong> (SOTA) <strong>self-supervised learning</strong> (SSL)
+								techniques for 3D point cloud understanding. 3D point clouds, which capture the geometry
+								and spatial arrangement of objects, are pivotal in domains such as robotics, augmented
+								reality, and autonomous driving. However, their irregular structure, inherent noise, and
+								the scarcity of labeled data present significant challenges for traditional supervised
+								learning approaches. My research leveraged SSL to mitigate these limitations by enabling
+								models to learn more effectively from unlabeled 3D data, reducing dependency on costly
+								annotations. <br></br>
+
+								The cornerstone of my work was the optimization of <strong>CrossPoint</strong>, a
+								leading <strong>cross-modal contrastive learning</strong> architecture. CrossPoint
+								utilizes both <strong>3D point clouds</strong> and their corresponding <strong>2D image
+									representations</strong> to improve feature extraction and representation learning.
+								This architecture integrates <strong>Dynamic Graph Convolutional Neural
+									Networks</strong> (DGCNN) for 3D data and <strong>Residual Networks</strong>
+								(ResNet) for 2D data, aligning features across modalities to leverage their
+								complementary strengths. Building upon this foundation, I incorporated <strong>VICReg
+									(Variance-Invariance-Covariance Regularization)</strong>, a robust SSL framework
+								that enhances embedding stability by preserving variance, reducing redundancy, and
+								preventing collapse in joint embeddings.<br></br>
+
+								Through rigorous experimentation, I optimized this hybrid approach and evaluated it on
+								three key downstream tasks: <strong>3D Object Classification</strong>, <strong>Few-Shot
+									Object Classification</strong>, and <strong>3D Object Part Segmentation</strong>.
+								Using benchmark datasets such as ShapeNet, ModelNet40, ScanObjectNN, and ShapeNetPart,
+								my modifications to the CrossPoint architecture and integration with VICReg demonstrated
+								notable <strong>performance improvements</strong>. These enhancements included
+								<strong>better generalization</strong> to unseen data and superior robustness to domain
+								shifts, marking a significant step forward in point cloud analysis. For more detailed
+								results and analysis, please refer to my full thesis linked below.<br></br>
+
+								This research exemplifies how augmenting cutting-edge architectures like CrossPoint with
+								advanced regularization frameworks such as VICReg can enable scalable and efficient AI
+								systems. These findings hold promising implications for real-world applications, from
+								autonomous navigation to 3D content generation, where labeled data scarcity and domain
+								adaptation are persistent hurdles.
+							</p>
+						</div>
+					</div>
+					<ul class="actions special">
+						<li><a href="https://drive.google.com/file/d/1_U94Ae__Kxstwgn1qa8W2ytaBDazO9fS/view?usp=sharing"
+								class="button style1 large" target="_blank">View Thesis</a></li>
+						<!-- <li><a href="#" class="button style2 large">More Info</a></li> -->
+					</ul>
+				</section>
+
+			</div>
+		</section>
+
+		<!-- Highlights -->
+		<section id="highlights" class="wrapper style3">
+			<div class="title">Featured Works</div>
+			<div class="container">
+
+				<section id="features">
+					<header class="style1">
+						<p>
+							Here are some of the projects I have selected to showcase my expertise in advanced NLP and
+							deep learning techniques, where I applied comprehensive preprocessing strategies, developed
+							cutting-edge models, enhanced model efficiency, and tackled practical, real-world problems.
+						</p>
+					</header>
+				</section>
+
+				<div class="row aln-center">
+					<div class="col-4 col-12-medium">
+						<section class="highlight">
+							<a class="image featured"><img src="images/absa.svg" alt="" /></a>
+							<h3>Aspect-Based Sentiment Analysis<br>BERT and Multi-Step Models</a></h3>
+							<p>
+								Implemented and compared two ABSA approaches: separate Bi-LSTM models for each task and
+								a multi-task model. The multi-task model, utilizes Bert, demonstrated higher accuracy,
+								achieving a 99.3% micro F1 score for aspect term identification and a 73% micro F1 score
+								for sentiment classification through an innovative cascaded architecture.
+							</p>
+							<ul class="actions">
+								<li><a href="https://github.com/orcunziylan/Aspect-Based-Sentiment-Analysis"
+										class="button style1" target="_blank">GitHub</a></li>
+							</ul>
+						</section>
+					</div>
+					<div class="col-4 col-12-medium">
+						<section class="highlight">
+							<a class="image featured"><img src="images/ner.svg" alt="" /></a>
+							<h3>Polysemous Word Disambiguation<br>A Comparative Analysis</a></h3>
+							<p>
+								Developed and evaluated various NLP models, including MLP and LSTM, achieving up to
+								69.94% accuracy through a novel embedding aggregation method. This approach utilized
+								pre-trained embeddings and extensive preprocessing techniques, such as lemmatization,
+								stop word removal, and varioues optimized tokenization strategies.
+							</p>
+							<ul class="actions">
+								<li><a href="https://github.com/orcunziylan/Word-in-Context-Disambiguation"
+										class="button style1" target="_blank">GitHub</a></li>
+							</ul>
+						</section>
+					</div>
+					<div class="col-4 col-12-medium">
+						<section class="highlight">
+							<a class="image featured"><img src="images/finance.svg" alt="" /></a>
+							<h3>Stock Market Forecasting<br>a CNN-LSTM Hybrid Model</a></h3>
+							<p>
+								Developed a hybrid model using CNNs and LSTMs to forecast weekly stock opening prices
+								based on real candlestick charts. Preprocessed the data, visualized price movements with
+								candlestick plots, and achieved improved prediction accuracy, as measured by a reduced
+								MSE, using PyTorch Lightning with early stopping to prevent overfitting.
+							</p>
+							<ul class="actions">
+								<li><a href="https://github.com/orcunziylan/Forecast-Stock-Market-CNN-LSTM"
+										class="button style1" target="_blank">GitHub</a></li>
+							</ul>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<section id="footer" class="wrapper">
+			<div class="title">Contact Information</div>
+			<div class="container">
+				<header class="style1">
+					<h2>Let's Connect!</h2>
+					<p>
+						I’m open to connecting with professionals, researchers, and anyone passionate about AI and
+						technology. <br>
+						Feel free to reach out for collaborations, inquiries, or simply a friendly chat about AI trends.
+					</p>
+				</header>
+				<div class="row">
+					<div class="col-6 col-12-medium">
+
+						<!-- Contact Form -->
+						<section>
+							<form method="post" action="https://formspree.io/f/xkgnzgdv">
+								<div class="row gtr-50">
+									<div class="col-6 col-12-small">
+										<input type="text" name="name" id="contact-name" placeholder="Name" required />
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="email" name="email" id="contact-email" placeholder="Email"
+											required />
+									</div>
+									<div class="col-12">
+										<textarea name="message" id="contact-message" placeholder="Message" rows="4"
+											required></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" class="style1" value="Send" /></li>
+											<li><input type="reset" class="style2" value="Reset" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</section>
+
+					</div>
+					<div class="col-6 col-12-medium">
+
+						<!-- Contact -->
+						<section class="feature-list small">
+							<div class="row">
+								<div class="col-6 col-12-small">
+									<section>
+										<h3 class="icon solid fa-home">Location</h3>
+										<p>
+											Istanbul, Turkey
+										</p>
+									</section>
+								</div>
+								<div class="col-6 col-12-small">
+									<section>
+										<h3 class="icon solid fa-comment">Connect</h3>
+										<p>
+											<a href="https://www.linkedin.com/in/orcunziylan/"
+												target="_blank">LinkedIn</a><br />
+											<a href="https://github.com/orcunziylan" target="_blank">GitHub</a><br />
+											<!-- <a href="https://yourportfolio.com" target="_blank">Portfolio</a> -->
+										</p>
+									</section>
+								</div>
+
+								<div class="col-6 col-12-small">
+									<section>
+										<h3 class="icon solid fa-envelope">Email</h3>
+										<p>
+											orcun.ziylan@gmail.com
+										</p>
+									</section>
+								</div>
+								<div class="col-6 col-12-small">
+									<section>
+										<h3 class="icon solid fa-phone">Phone</h3>
+										<p>
+											+90 (537) 206-0408
+										</p>
+									</section>
+								</div>
+							</div>
+						</section>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</div>
+
+	
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
